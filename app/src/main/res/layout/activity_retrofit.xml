@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/retrofit_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/retrofit_btn0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取电影" />
+
+        <Button
+            android:id="@+id/retrofit_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用RxJava获取电影" />
+
+
+        <Button
+            android:id="@+id/retrofit_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用封装方法获取电影RxJava" />
+
+        <Button
+            android:id="@+id/retrofit_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="预先处理过返回结果的请求" />
+
+        <Button
+            android:id="@+id/retrofit_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取消请求" />
+
+        <Button
+            android:id="@+id/retrofit_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="封装了Progress的Retrofit请求" />
+
+        <Button
+            android:id="@+id/retrofit_btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="post请求实现登录" />
+
+        <Button
+            android:id="@+id/retrofit_btn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请求Gank.io福利" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone" />
+</RelativeLayout>

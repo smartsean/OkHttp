@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">okHttp3</string>
+    <string name="title_activity_retrofit">Retrofit</string>
+</resources>
